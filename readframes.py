@@ -40,8 +40,8 @@ plt.xlabel('Tiempo segundos')
 plt.ylabel('Amplitud')
 
 #Agregar la informacion
-plt.plot(time_o, output, label='Output')
-plt.plot(time_t, telefono, label='Telefono', alpha = 0.5)
+plt.plot(time_o, ondaconvertida, label='Output')
+plt.plot(time_t, ondaconvertida_t, label='Telefono', alpha = 0.5)
 
 plt.legend()
 plt.show()
